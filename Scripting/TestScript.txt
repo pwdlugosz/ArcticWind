@@ -1,0 +1,15 @@
+﻿
+/*
+PRINT 'HELLO WORLD!!!';
+int X = 0;
+table #T = #{ INT : KEY, DOUBLE : VAL_D, BSTRING.2 : VAL_B };
+
+FOR (X = 0; X < 10000; X++)
+{
+	#T += @{ X, RANDOM.NEXT_DOUBLE(), RANDOM.NEXT_BSTRING(2, 'ABCDEF') };
+};
+*/
+
+table #u = OPEN('Temp','T');
+
+print #u to 'C:\Users\pwdlu_000\Documents\Pulse_Projects\Temp\Test1.txt';
